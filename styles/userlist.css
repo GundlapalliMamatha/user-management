@@ -1,0 +1,35 @@
+.container {
+    padding: 16px;
+}
+.container h1, .container p {
+    text-align: center;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left:259px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td{
+    width:18%;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
+.filter-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
